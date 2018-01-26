@@ -6,7 +6,7 @@ Overview
 
 This sample source code presents the simplest usage of FindSurface SDK.
 
-The sample program reads sample.xyz file and automatically finds primitives around pre-defined positions.
+The sample program reads sample.xyz file and automatically finds primitives around pre-defined positions. Without the sample.xyz file, it won't work at all, so make sure that you download the file [here](https://github.com/CurvSurf/FindSurface-Sample-BasicSample/releases).
 
 **The sample only runs with our FindSurface SDK library files (FindSurface.dll, etc.).**
 
