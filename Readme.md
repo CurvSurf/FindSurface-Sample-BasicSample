@@ -16,6 +16,16 @@ The sample program reads sample.xyz file and automatically finds primitives arou
 Quick Start
 ------------
 
+### Sample data used in this sample application
+
+The sample point cloud data used in this simple FindSurface application is captured by the [Google Tango Tablet](https://developers.google.com/tango/hardware/tablet).  
+The captured point cloud data is stored in **sample.xyz** file.
+The scene of sample point cloud data looks like below:
+
+| <img src="Readme.images/sample.jpg" width="480" /> | <img src="Readme.images/sample_pc.jpg" width="480" /> |
+| :--------------------------------------: | :--------------------------------------: |
+|       **Figure 1. Captured Scene**       |        **Figure 2. Point Cloud**         |
+
 ### Building the sample
 
 Download FindSurface SDK library files at [our developer website](https://developers.curvsurf.com/downloads.jsp).
