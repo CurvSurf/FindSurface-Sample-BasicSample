@@ -1,6 +1,8 @@
 # FindSurface-Samples / BasicSample / Readme.md
 **Curv*Surf* FindSurface™ SDK** Samples - BasicSample
 
+
+
 Overview
 --------
 
@@ -11,6 +13,7 @@ The sample program reads sample.xyz file and automatically finds primitives arou
 **The sample only runs with our FindSurface SDK library files (FindSurface.dll, etc.).**
 
 **You must either [request a free trial](http://developers.curvsurf.com/licenses.jsp) or [purchase a license](https://developers.curvsurf.com/licenses.jsp) to activate the library files.**
+
 
 
 Quick Start
@@ -26,15 +29,22 @@ The scene of sample point cloud data looks like below:
 | :--------------------------------------: | :--------------------------------------: |
 |       **Figure 1. Captured Scene**       |        **Figure 2. Point Cloud**         |
 
-### Building the sample
+### Before building the sample
 
 Download FindSurface SDK library files at [our developer website](https://developers.curvsurf.com/downloads.jsp).
 
-Copy the lib directory in the zip file to BasicSample/vs14/libFindSurface. Or you may update the library path in the BasicSample.vcxproj file.
+##### Windows: Visual Studio
+
+Copy the lib directory in the zip file to BasicSample/vs14/libFindSurface. Or you may update the library path in the BasicSample.vcxproj file. 
+
+##### Linux: Makefile
+
+Open Makefile script and change **DUMMY_PATH** variable to your dummy library file path.
 
 ### Getting Started to develop your own application
 
 Our [developer website](https://developers.curvsurf.com/documentation.jsp) provides detailed instruction on how to develop by using FindSurface SDK.
+
 
 
 CONTACT
